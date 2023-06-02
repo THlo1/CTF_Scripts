@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  source: 
+    build: .
+    image: xjctf:sql
+    container_name: xjctf
+    ports: 
+      - "9905:80"

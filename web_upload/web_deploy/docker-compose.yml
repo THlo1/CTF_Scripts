@@ -1,0 +1,8 @@
+version: "3"
+services: 
+  upload: 
+    build: .
+    image: upload:latest
+    container_name: upload
+    ports: 
+      - "9904:80"

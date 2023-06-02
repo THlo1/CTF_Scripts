@@ -1,0 +1,7 @@
+version: '3'
+services:
+  challenge:
+    build: .
+    image: xjctf/ssti
+    ports:
+      - "9903:8000"
